@@ -23,8 +23,10 @@ A clean, beginner-friendly, and fully functional College Library Management Syst
   - Content-based smart recommendation algorithm scoring category affinity (+35 pts), author matching (+30 pts), and topic/keyword similarity (+12 pts per matching token).
   - Displays match percentages (e.g. *98% Match*) and reasoning tags (*"By same author: Robert C. Martin"*, *"Shared topics: software, architecture"*).
   - Integrated into **Book Details (`/books/:id`)** and **Loan Circulation Details (`/loans/:id`)**.
+- 📚 **52 Rich Academic & Tech Books Catalog**:
+  - Expanded catalog covering Computer Science, Artificial Intelligence, Machine Learning, Deep Learning, Cloud & DevOps (Docker/Kubernetes/SRE), Rust, Go, Python, JavaScript, Algorithms, System Design, Physics, Space & Astronomy, Biology, World History, Biographies, Psychology & Finance, and Classics.
 - 🏷️ **Category Filtering & Directory**:
-  - Filter books across Fiction, Science, Technology, History, Biography, Education, and Other.
+  - Filter books across Technology, Science, History, Biography, Education, Fiction, and Other.
   - Switch between visual Grid Card view and Table view.
 - 🔄 **Circulation & Lending Audit Trail**:
   - Issue books with due date scheduling.
