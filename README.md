@@ -1,6 +1,12 @@
 # 📚 Library Portal - MERN Stack College Mini Project
 
+[![Live Demo](https://img.shields.io/badge/Vercel-Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://library-portal-jet.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-rakshana--11%2Flibrary--portal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rakshana-11/library-portal)
+
 A clean, beginner-friendly, and fully functional College Library Management System built on the **MERN** (MongoDB, Express.js, React.js, Node.js) stack with **Bootstrap 5** and **Vite**.
+
+- 🌐 **Live Website**: [https://library-portal-jet.vercel.app](https://library-portal-jet.vercel.app)
+- 🐙 **GitHub Repository**: [https://github.com/rakshana-11/library-portal](https://github.com/rakshana-11/library-portal)
 
 ---
 
