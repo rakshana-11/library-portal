@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { ensureLocalMongo } = require('./autoMongo');
 
 let cached = global.mongoose;
 if (!cached) {
@@ -11,6 +12,9 @@ const connectDB = async () => {
   }
 
   if (!cached.promise) {
+    // Automatically ensure local MongoDB is running if developing locally
+    await ensureLocalMongo();
+
     const mongoUri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/library_portal';
     cached.promise = mongoose.connect(mongoUri, {
       serverSelectionTimeoutMS: 5000,
@@ -31,3 +35,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+

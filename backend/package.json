@@ -8,7 +8,14 @@
     "dev": "nodemon server.js",
     "seed": "node seed/seed.js"
   },
-  "keywords": ["mern", "library", "mongodb", "express", "react", "node"],
+  "keywords": [
+    "mern",
+    "library",
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

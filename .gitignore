@@ -22,7 +22,13 @@ pnpm-debug.log*
 
 # Database & temporary local data
 mongodb_data
+data/
 .system_generated
+
+# Document generation & reports
+docs/
+backend/generate_*.js
+~$*
 
 # OS & Editor files
 .DS_Store

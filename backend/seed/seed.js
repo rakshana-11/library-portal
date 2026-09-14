@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const { ensureLocalMongo } = require('../config/autoMongo');
 const User = require('../models/User');
 const Book = require('../models/Book');
 const Member = require('../models/Member');
@@ -11,6 +12,7 @@ dotenv.config({ path: './.env' });
 
 const seedDatabase = async () => {
   try {
+    await ensureLocalMongo();
     const mongoUri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/library_portal';
     await mongoose.connect(mongoUri);
     console.log('Connected to MongoDB for seeding...');
